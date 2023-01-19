@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="src/js/script.js"></script>
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Quest Javascript Intermediário - Vitor Bisi</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main--text">
+        <p class="question">Ficou com dúvida?</p>
+        <p class="text--us">Nos mande uma mensagem!</p>
+        <p class="question--details">
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+      <div class="form--container">
+        <form id="message--form" class="form">
+          <div class="form--field">
+            <input
+              type="text"
+              id="username"
+              name="name"
+              class="simple--input"
+              placeholder="Nome completo *"
+            />
+            <small class="small--field--warning">campo obrigatório</small>
+          </div>
+          <div class="form--field">
+            <input
+              type="text"
+              class="simple--input"
+              id="email"
+              name="email"
+              placeholder="Email *"
+            />
+            <small class="small--field--warning">campo obrigatório</small>
+          </div>
+          <div class="form--field">
+            <input
+              type="text"
+              id="phone"
+              class="simple--input"
+              name="phone"
+              placeholder="Telefone *"
+            />
+            <small class="small--field--warning">campo obrigatório</small>
+          </div>
+          <div class="form--field">
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Mensagem *"
+            ></textarea>
+            <small class="large--field--warning">campo obrigatório</small>
+          </div>
+          <p class="required--fields">*campos obrigatórios</p>
+          <button type="submit" class="submit--button">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

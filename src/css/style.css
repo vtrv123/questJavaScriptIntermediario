@@ -1,0 +1,121 @@
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  background-image: url(../imgs/bg-repeat.jpg);
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 65px;
+  width: 800px;
+  height: 400px;
+}
+
+.main--text {
+  height: 111px;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.text--us {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 11px;
+}
+
+.question--details {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.form--container {
+  width: 340px;
+  height: 378px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 9px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.simple--input {
+  height: 35px;
+  margin-bottom: 15px;
+}
+
+input::placeholder {
+  color: #a8a8a8;
+}
+
+#message {
+  height: 100px;
+  margin-bottom: 16px;
+  width: 100%;
+  padding: 9px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+#message::placeholder {
+  color: #a8a8a8;
+}
+
+.required--fields {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 11px;
+}
+
+.submit--button {
+  width: 100%;
+  height: 41px;
+  background-color: #3ccc87;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.form--field {
+  position: relative;
+}
+
+small {
+  display: none;
+  position: absolute;
+  color: #f52e2e;
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.large--field--warning {
+  left: 2px;
+  top: 87%;
+}
+
+.small--field--warning {
+  left: 2px;
+  top: 71%;
+}
